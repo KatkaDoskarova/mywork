@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mé Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="src/css/styles_success_page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,600&family=Hind+Madurai&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+  
+</head>
+<body>
+  <div w3-include-html="navbar.html"></div>
+  
+  <div class="about-main">
+    <div class="about-text">
+      <h1>O mně #</h1>
+        
+      
+      <p>Ahoj, jmenuji se (zde vložte své jméno) a jsem web developerka, která si splnila svůj dětský sen. Narodila jsem se koncem osmdesátých let, kdy počítače byly ještě vzácností v domácnostech. Ale já jsem měla štěstí, že jsem dostala jeden jako dárek a okamžitě jsem se do něj zamilovala. Byl to můj nejlepší kamarád, se kterým jsem trávila hodiny a hodiny. Zkoušela jsem si upravovat vše možné, od barev a písem po zvuky a ikony. Byla to pro mě velká zábava a také výzva. Hodiny počítačové informatiky ve škole mě také bavily a učily mě základům programování. Pak přišlo ICQ a upravitelný program Miranda, kde jsem si jen tak pro zábavu zkoušela upravovat vzhled pomocí textového editoru. Byla jsem v tom docela dobrá a bavilo mě to
+
+      </p>
+      <p> Pak jsem ale musela začít pracovat a na moji vášeň pro počítače jsem neměla moc času. Pracovala jsem na pozicích technické podpory, kde jsem pomáhala lidem s jejich problémy s počítači. Byla to zajímavá práce, ale nebyla to moje práce snů. Mám krásnou rodinu, kterou miluji, ale chci, aby mě bavila i práce. Vždy jsem obdivovala programátory a chtěla se taky jedním stát. Tak jsem začala s kurzem Python from scratch, kde jsem objevila vášeň pro front-end vývoj. A tohle je výsledek mé první samostatné práce. Je to mé první dílo, na které jsem nesmírně pyšná. Protože každý jednou začínal a i já mám tento začátek před sebou.
+        
+        Doufám, že se vám mé portfolio líbí a že vás zaujme moje práce. Pokud máte jakékoli dotazy nebo návrhy, neváhejte mě kontaktovat na (zde vložte svůj e-mail). Děkuji za váš čas a pozornost</p>
+      </p>
+      </div>
+    <div class="about-image">
+      <img src="src/img/roses.png" alt="divka">
+    </div>
+  </div>
+
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script>
+    // Načtení navigačního panelu
+    w3.includeHTML(function () {
+        const currentUrl = window.location.href;
+
+        // Skryje tlačítko "O mně" na domovské stránce (index.html)
+        if (currentUrl.includes('about.html')) {
+            const aboutLink = document.querySelector('.about-link');
+            if (aboutLink) {
+                aboutLink.style.display = 'none';
+            }
+        }
+
+        // Skryje tlačítko "Domů" na stránce "O mně" (about.html)
+        if (currentUrl.includes('index.html')) {
+            const homeLink = document.querySelector('.home-link');
+            if (homeLink) {
+                homeLink.style.display = 'none';
+            }
+        }
+    });
+</script>
+</body>
+</html>

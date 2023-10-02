@@ -1,0 +1,57 @@
+body {
+    background-color: #0E0C0F; /* Černé pozadí */
+    color: #786D6B; /* Bílá barva textu */
+    font-family: Arial, sans-serif; /* Písmo */
+  }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .image-section img {
+    width: 80%;
+  }
+
+ 
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .form-group label {
+    margin-bottom: 10px;
+    font-size: 18px;
+   
+  }
+
+  .form-group input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    background-color: #D1C8BF;
+
+  }
+
+  .btn {
+    background-color: #786D6B; /* Světlá barva pozadí */
+    color: #333; /* Barva textu */
+    padding: 12px 24px; /* Výška a šířka políčka */
+    font-size: 18px; /* Velikost písma */
+    border: none; /* Žádné ohraničení */
+    cursor: pointer; /* Změna kurzoru při najetí myši */
+    border-radius: 8px; /* Zaoblené rohy */
+    transition: background-color 0.3s ease; /* Plynulá změna barvy */
+  }
+
+  .btn:hover {
+    background-color: #e0e0e0; /* Barva pozadí při najetí myši */
+  }

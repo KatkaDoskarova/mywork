@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mé Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="src/css/styles_success_page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,600&family=Hind+Madurai&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+    <div  w3-include-html="navbar.html"></div>
+
+    
+
+    <div class="main">
+      <div class="image-section">
+        <img src="src/img/divka.png" alt="divka">
+      </div>
+        <div class="text-section">
+          <h1>#Kate</h1>
+          <h2>Front-end Developer</h2>
+          <p>Ahoj, jmenuji se Kate a toto je můj první projekt, který jsem vytvořila s pomocí umělé inteligence. AI se postarala o grafické prvky, které vidíte na této stránce, a já jsem se zaměřila na obsah a kód. Jsem na začátku své cesty jako web developerka, ale mám zapálení a vášeň pro to, co dělám. Doufám, že se vám můj projekt líbí a budu ráda za vaši zpětnou vazbu.</p>
+        </div>
+    </div>
+
+    <div class="info-section">
+      <div>
+          <h3>Oddělení 1</h3>
+          <p>Nějaké informace</p>
+      </div>
+      <div class="info-image">
+        <img src="src/img/list.png" alt="divka">
+      </div>
+      <div>
+          <h3>Oddělení 3</h3>
+          <p>Nějaké informace</p>
+      </div>
+      <div>
+        <h3>Oddělení 4</h3>
+        <p>Nějaké informace</p>
+    </div>
+      
+  </div>   
+  <footer>
+    <p>&copy; 2023 Kateřina Doškářová</p>
+  </footer> 
+
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  
+<script>
+  // Načtení navigačního panelu
+  w3.includeHTML(function () {
+      const currentUrl = window.location.href;
+
+      // Skryje tlačítko "O mně" na domovské stránce (index.html)
+      if (currentUrl.includes('about.html')) {
+          const aboutLink = document.querySelector('.about-link');
+          if (aboutLink) {
+              aboutLink.style.display = 'none';
+          }
+      }
+
+      // Skryje tlačítko "Domů" na stránce "O mně" (about.html)
+      if (currentUrl.includes('index.html')) {
+          const homeLink = document.querySelector('.home-link');
+          if (homeLink) {
+              homeLink.style.display = 'none';
+          }
+      }
+  });
+</script>
+</body>
+</html>
+  
+
+
+
+  
+
