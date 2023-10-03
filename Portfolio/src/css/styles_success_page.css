@@ -20,8 +20,6 @@ body, html {
   display: flex;
 }
 
-
-
 .navbar a {
   font-family: "Hind Madurai", sans-serif;
   color: #D1C8BF;
@@ -46,7 +44,6 @@ body, html {
 .image-section img {
   width: 80%;
   margin: 10%;
-  
 }
 
 .text-section {
@@ -111,41 +108,23 @@ body, html {
   height: auto;
 }
 
-footer {
-  color: white;
-}
-
 .about-text h1 {
-  
-  
-  
   text-decoration: none;
   text-shadow: 0 2px 3px #734349;
   letter-spacing: 0.1em;
   font-family: 'Bodoni Moda', serif;
   color: #D1C8BF;
   font-size: 48px;
-  
   text-transform: uppercase;
-  
-  
-  
-  
 }
 
 .about-text p {
   font-family: "Hind Madurai", sans-serif;
   color: #D1C8BF;
-  
-  
   font-size: 16px;
   padding-top: 40px;
-  
-  
   line-height: 1.4;
-  
   letter-spacing: 0.2em;
-  
 }
 
 .about-text {
@@ -165,16 +144,15 @@ footer {
   margin-top: 100px;
 }
 
-img {
+.about-image img {
   max-width: 100%;
   height: auto;
   
 }
 
-
-.material-symbols-sharp {
- font-size: 36px;
- color: #734349;
+footer {
+  color: #D1C8BF;
 }
+
 
 
