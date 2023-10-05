@@ -155,4 +155,11 @@ footer {
 }
 
 
-
+@media (max-width: 960px) {
+  /* všechny styly pro tablet */
+  
+}
+@media (max-width: 480x) {
+  /* všechny styly pro mobil */
+  
+}
